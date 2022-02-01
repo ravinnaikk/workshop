@@ -1,0 +1,13 @@
+@import "breakpoint";
+
+@mixin desktop() {
+    font-style:25px;
+    width: 200px;
+    display: grid;
+    background-color: gray;
+    gap: 50px;
+    grid-template-columns: 1fr 1fr;
+    font-size: 25px;
+    text-align: center;
+    border: 20px white;
+}
