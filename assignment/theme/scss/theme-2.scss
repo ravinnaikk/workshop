@@ -1,0 +1,23 @@
+$theme-2: (
+   container: (
+       bg: lightgreen,
+       color:black,
+       border-color:black
+   ),
+   left: (
+       bg: green,
+       color: white,
+       height: 100%,
+       width: 69%
+   ),
+   right: (
+       bg: green,
+       color: white,
+       height: 100%,
+       width: 29%
+   ),
+   button: (
+       bg: olive,
+       color: white
+   )
+);

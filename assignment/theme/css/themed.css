@@ -1,0 +1,71 @@
+.theme-1 .container .right {
+  position: relative;
+}
+.theme-1 .button {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: 10px;
+}
+.theme-1 .container {
+  background-color: pink;
+  border: 1px solid black;
+  display: flex;
+  height: 500px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 1em;
+  width: 50%;
+}
+.theme-1 .left {
+  background-color: red;
+  color: white;
+  height: 100%;
+  width: 69%;
+}
+.theme-1 .right {
+  background-color: red;
+  color: white;
+  height: 100%;
+  width: 29%;
+}
+.theme-1 .button {
+  background-color: brown;
+  color: white;
+}
+
+.theme-2 .container .right {
+  position: relative;
+}
+.theme-2 .button {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  bottom: 10px;
+}
+.theme-2 .container {
+  background-color: lightgreen;
+  border: 1px solid black;
+  display: flex;
+  height: 500px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 1em;
+  width: 50%;
+}
+.theme-2 .left {
+  background-color: green;
+  color: white;
+  height: 100%;
+  width: 69%;
+}
+.theme-2 .right {
+  background-color: green;
+  color: white;
+  height: 100%;
+  width: 29%;
+}
+.theme-2 .button {
+  background-color: olive;
+  color: white;
+}/*# sourceMappingURL=themed.css.map */

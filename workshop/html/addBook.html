@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <title>Add Book</title>
+        <link rel="stylesheet" href="../css/bookManagement.css">
+        
+        <header></header>
+        <br>
+        <br>
+    </head>
+    <body>
+        <div class="flex-container">
+            <div><a href="./bookManagement.html">Home</a></div>
+            <div><a href="./ListOfAllBooks.html">List of All Books</a></div>
+            <div><a href="./addBook.html">Add Book</a></div>
+            <div><a href="./removeBook.html">Remove Book</a></div>
+            <div><a href="./editBook.html">Edit Book</a></div>
+        </div>
+        <br>
+        <br>
+        <form class="addBook"  method="post">
+            <div>Book Name: <input type="text"  id="name" placeholder="write your name" maxlength="10" size="2"required><br></div>
+            <br>
+            <div>No of books to be added:<input type="number" id='quantity' size="2" min="0" maxlength="2" >(1-10)></div>
+            <br>
+            <div>Category:<input type="text" id="category"></div>
+            <br>
+            <button type="button" name="button" onclick="add()">
+                Submit
+            </button>        
+        </form>
+        <article><script src="../js/index.js"></script></article>
+        <br>
+<footer>
+    @Copyright Bookshelf Pvt. LTD.</footer>
+    <div class=""></div>
+    </body>
+</html>

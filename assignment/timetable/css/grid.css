@@ -1,0 +1,29 @@
+.column{
+    display: grid;
+    background-color: cornflowerblue;
+    text-align: center;
+    font-size: 2vw;
+    border: 0.1w solid;
+    grid-column: 8;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.single{
+    display: grid;
+    background-color: cornflowerblue;
+    text-align: center;
+    font-size: 2vw;
+    border: 0.1w solid;
+    grid-column: 8;
+}
+div{
+    border: 1px solid black;
+}
+.holiday{
+    grid-row-start: span 3;
+    grid-row-end: 5;
+}
+
+
+ 
+            
+            

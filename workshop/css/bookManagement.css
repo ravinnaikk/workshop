@@ -1,0 +1,40 @@
+.flex-container > div {
+    background-color: cornsilk;
+    margin: 50px;
+    padding: 20px;
+    font-size: 30px;
+    font-style: oblique;
+  }
+
+  .flex-container {
+    display: flex;
+    background-image: url(./123.jpg);
+  }
+
+  article{
+    column-count: 3;
+    column-gap: 10px;
+    column-width: 20px;
+    column-rule: 2px solid red;
+
+
+}
+header::before{
+    font-size: 80px;
+    font: bolder;
+    font-style: oblique;
+    color: solid black;
+    content: "Bookshelf.com";
+    
+}
+
+body {
+    background-image: url(./R.jfif);
+}
+
+footer {
+    background-color: cornsilk;
+}
+.end {
+    background: url(./OIP.jfif);
+}

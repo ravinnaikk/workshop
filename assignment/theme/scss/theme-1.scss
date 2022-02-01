@@ -1,0 +1,23 @@
+$theme-1: (
+   container: (
+       bg: pink,
+       color:black,
+       border-color:black
+   ),
+   left: (
+       bg: red,
+       color: white,
+       height: 100%,
+       width: 69%
+   ),
+   right: (
+       bg: red,
+       color: white,
+       height: 100%,
+       width: 29%
+   ),
+   button: (
+       bg: brown,
+       color: white
+   )
+);

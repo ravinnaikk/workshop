@@ -1,0 +1,17 @@
+input[type="button"] {
+    background-color: aliceblue;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+}
+input[type="text"]{
+    width: 98%;
+    font-size: 32px;
+}
+
+th ,td{
+    background-color: dimgrey;
+    border: 2px;
+}
